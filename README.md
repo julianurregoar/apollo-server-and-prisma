@@ -1,38 +1,7 @@
-# Apollo Server Tutorial
+# Apollo Server and Prisma Tutorial
 
-This repo contains the code from the `server` directory that was built in the first sections of the [Apollo Tutorial](https://www.apollographql.com/docs/tutorial/introduction/).
+This repo contains the final code gave by Prisma and Apollo team ([@niikolasburk](https://github.com/nikolasburk), [@kurtkemple](https://github.com/kkemple) )on [Youtube](https://www.youtube.com/watch?v=I4IqM5dks2w).
 
-## Usage
+Thank you for teaching the community.
 
-```
-git clone git@github.com:nikolasburk/apollo-server-livestream.git
-cd apollo-server-livestream
-yarn
-yarn start
-```
-
-Send test query:
-
-```graphql
-{
-  launches(pageSize: 5) {
-    launches {
-      id
-      site
-      isBooked
-      mission {
-        name
-        missionPatch
-      }
-      rocket {
-        id
-        name
-        type
-      }
-    }
-    hasMore
-  }
-}
-```
-
-You can find the implementation of the remaining operations in the [`prisma`](https://github.com/nikolasburk/apollo-server-livestream/tree/prisma) and [`prisma-extended`](https://github.com/nikolasburk/apollo-server-livestream/tree/prisma-extended) branches.# apollo-server-and-prisma
+You can find the initial repo [HERE](https://github.com/nikolasburk/apollo-server-livestream)
